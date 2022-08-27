@@ -32,7 +32,7 @@ const KanbanNewCard = ({onsubmit}) => {
 
   return (
     <li className='kanban-card'>
-      <h3>添加任务</h3>
+      <h3>添加任务卡片</h3>
       <div className='card-title'>
         <input ref={inputRef} placeholder='输入您待办事项' type='text' value={title} onChange={handleChange} onKeyDown={handleKeyDown} />
       </div>
